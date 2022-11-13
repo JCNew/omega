@@ -1,0 +1,93 @@
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+    position: absolute;
+    height: auto;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 500px;
+    left: -74%;
+    transition: ease-in-out 500ms;
+}
+.social-media.active {
+    display: flex;
+    position: absolute;
+    height: auto;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 500px;
+    left: 0;
+    transition: ease-in-out 500ms;
+}
+
+.circle-link {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.instagram {
+    background: url("./Instagram_logo_2016.svg");
+    background-size: cover;
+}
+
+.twitter {
+    background: url("./cdnlogo.com_twitter.svg");
+    background-size: cover;
+}
+
+.tiktok {
+    background: url("./logo-tiktok-svgrepo-com.svg");
+    background-size: cover;
+}
+
+.switch {
+    background: url("./left-arrow-next-svgrepo-com.svg");
+    transition: linear 500ms;
+    background-size: cover;
+}
+
+.switch.active {
+    background: url("./right-arrow-svgrepo-com\ \(1\).svg");
+    transition: linear 500ms;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #003B2D;
+    margin: 0;
+}
+
+.image {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+.slogan {
+    margin-top: 70px;
+    border: none;
+}
