@@ -12,7 +12,7 @@
     padding: 10px;
     background-color: rgba(255,255,255,0.8);
     border-radius: 500px;
-    left: -74%;
+    left: -78%;
     transition: ease-in-out 500ms;
 }
 .social-media.active {
@@ -30,8 +30,8 @@
 
 .circle-link {
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
 }
 
 .instagram {
@@ -65,6 +65,7 @@ html, body {
     height: 100vh;
     background-color: #003B2D;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .image {
